@@ -13,6 +13,7 @@ func main() {
 
 	if len(os.Args) != 3 {
 		fmt.Println(usage)
+		os.Exit(0)
 	}
 	f, err := fixer.NewFixer(os.Args[1])
 	if err != nil {

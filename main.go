@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	usage := "USAGE: " + os.Args[0] + " [IN] [OUT]\n"
+	usage := "USAGE: " + os.Args[0] + " [IN] [OUT]"
 
 	if len(os.Args) != 3 {
 		fmt.Println(usage)
